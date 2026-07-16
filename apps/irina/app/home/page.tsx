@@ -1,7 +1,5 @@
 import { PageBody, PageHeader } from '@kit/ui/page';
-
 import { DashboardDemo } from '~/home/_components/dashboard-demo';
-
 import { leerRegistro, escribirRegistro } from './actions'
 
 export default function HomePage() {
