@@ -1,8 +1,11 @@
 import { PageBody, PageHeader } from '@kit/ui/page';
 import { DashboardDemo } from '~/home/_components/dashboard-demo';
 import { leerRegistro, escribirRegistro } from './actions'
+// En tu page.tsx, agregá esto temporalmente arriba de todo
 
 export default function HomePage() {
+  console.log("¿Tengo URL?:", !!process.env.NEXT_PUBLIC_SUPABASE_URL);
+  console.log("¿Tengo KEY?:", !!process.env.SUPABASE_SERVICE_ROLE_KEY);
   return (
     <div>
       <button onClick={async () => {
