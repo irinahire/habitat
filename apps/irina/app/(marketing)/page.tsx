@@ -28,7 +28,7 @@ function Home() {
           }
           title={
             <>
-              <span>The ultimate SaaS Starter</span>
+              <span>The SaaS Starter</span>
               <span>for your next project</span>
             </>
           }
